@@ -16,19 +16,19 @@ public class Program {
 		Set<Integer> b = new HashSet<Integer>();
 		Set<Integer> c = new HashSet<Integer>();
 
-		System.out.print("How many students for course A? "); // 3
+		System.out.print("How many students for course A? "); 
 		int n = sc.nextInt();
 		for (int i = 1; i <= n; i++) {
 			Integer num = sc.nextInt();
 			a.add(num);
 		}
-		System.out.print("How many students for course B? "); // 3
+		System.out.print("How many students for course B? "); 
 		n = sc.nextInt();
 		for (int i = 1; i <= n; i++) {
 			Integer num = sc.nextInt();
 			b.add(num);
 		}
-		System.out.print("How many students for course C? "); // 3
+		System.out.print("How many students for course C? "); 
 		n = sc.nextInt();
 		for (int i = 1; i <= n; i++) {
 			Integer num = sc.nextInt();
